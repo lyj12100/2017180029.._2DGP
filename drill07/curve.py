@@ -51,11 +51,6 @@ def draw_point(p):
     turtle.dot(5, random.random(), random.random(), random.random())
 
 
-
-
-def draw_curve_3_points(p1, p2, p3):
-    pass
-
 def draw_curve_4_points(p1, p2, p3, p4):
     draw_big_point(p1)
     draw_big_point(p2)
@@ -99,12 +94,7 @@ def draw_curve_4_points(p1, p2, p3, p4):
         draw_point(p1)
 
 
-
-
-
-
 prepare_turtle_canvas()
-
 
 draw_curve_4_points((-350,200),(400,350),(300,-300),(-200,-200))
 
