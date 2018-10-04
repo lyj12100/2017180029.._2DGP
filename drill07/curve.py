@@ -1,6 +1,7 @@
 import turtle
 import random
 
+#커밋횟수 2
 
 def stop():
     turtle.bye()
